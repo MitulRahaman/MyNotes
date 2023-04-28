@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+
+.container{
+    background-color: #251111;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    color: #150a24;
+    background-color: #0f9f81;
+    padding: 2rem;
+    min-height: 80vh;
+    width: 50%;
+    overflow: scroll;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.btn{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #b9d03a;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #75f00e;
+    color: #430d0d;
+}
+
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #052b23;
+    color: #c4cb92;
+    padding: .5rem;
+    margin: 1rem 0;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+}
+
+.li-style:hover{
+    background-color: #218b5b;
+    color: white;
+}
+
+.message-add {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #d0b97f;
+    color: #251111;
+    border-left: 6px solid #000000;
+}
+
+.message-remove {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #ff0c00;
+    color: #251111;
+    border-left: 6px solid #430d0d;
+}
